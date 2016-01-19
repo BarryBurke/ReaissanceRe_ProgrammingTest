@@ -1,0 +1,11 @@
+﻿
+Obviously the solution will end up being slower the larger the xml files get.
+This could be improved by using LINQ to XML to join the two XML files.
+However i think that the XML files are poorly contrusted, ie: the Id fields should be used as
+attributes in the Event and Company tags. This would allow the files to easily be joined
+using LINQ to XML.
+In order to get line numbers in the error messages i would have needed to have implemented
+the XMLReader instead of using XPath.
+
+
+
